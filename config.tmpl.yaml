@@ -1,0 +1,15 @@
+host_data:
+  api_key: <INSERT_API_KEY>
+  base_url:
+  limit: 2
+  skip: 0
+  paths:
+    - name: name1
+      full_path: api/
+    - name: name2
+      full_path: api/
+
+mongodb:
+  collection: hosts
+  db: thing
+  host: mongodb://localhost:27017/
